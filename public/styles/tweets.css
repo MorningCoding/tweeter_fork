@@ -1,0 +1,98 @@
+/*tweet container
+
+      <section class="all-tweets">
+        <article class="sample-tweet">
+        <h4>
+          Pirashanth
+        </h4>
+        <p class="tweet-content">
+          If I have seen further it is by standing on the shoulders of giants
+        </p>
+        <footer>
+          <p class="right-icons">
+            <i class="fas fa-flag"></i>
+            <i class="fas fa-retweet"></i>
+            <i class="fas fa-heart"></i>
+          </p>
+          <p class="days-ago">10 days ago
+          </p>
+
+*/
+
+.all-tweets{
+    display:flex;
+    justify-content:center;
+    width: 50%;
+    padding: 10px;
+}
+
+.all-tweets:hover{
+    box-shadow: 10px 10px;
+    background-color:orangered;
+}
+
+.tweets-container{
+  display:flex;
+  flex-direction: column;
+  width:50%;
+  align-items:center;
+  background-color:coral;
+  font-family: 'Bungee', cursive, sans-serif;
+  padding:5px;
+  margin: 5px;
+}
+
+.tweet-content{
+    border-bottom: 5px solid black;
+}
+.right-icons{
+    float: right;
+}
+
+.fa-heart:hover{
+    color:brown;
+}
+
+.fa-flag:hover{
+    color:brown;
+}
+
+.fa-retweet:hover{
+    color:brown;
+}
+
+article{
+  opacity:0.75;
+  border: .5px solid black;
+  border-radius: 10px;
+  padding: 2px 1px 20px 2px;
+
+  width:70%;
+  display:inline-block;
+  background-color: lightgrey;
+  margin-top: 20px;
+}
+
+article:hover {
+  opacity:1
+}
+
+.avatar {
+  height:50px;
+  width:50px;
+  float:left;
+}
+
+.username{
+  font-weight: 300;
+  float:right;
+  padding:0px 0px 0px 10px;
+  line-height:1em;
+  font-size:.75em;
+}
+
+footer{
+  width: 100%;
+  float:left;
+  padding: 0px 5px;
+}

@@ -1,0 +1,28 @@
+/*rules for nav
+120 pixels in height
+Full width of the viewport
+#4056A1 as its default background colour
+#FFFFF as its default font colour
+<span> within the <nav> uses Bungee as its default font-family
+1.5ems of space on the right and left between the content and the edges
+*/
+
+nav {
+    height: 120px;
+    width: 100%;
+    background-color: #4056A1;
+    color: #FFFFFF;
+    /*font-family: 'Bungee', cursive, sans-serif;*/
+    padding: 1.5em;
+    z-index: 2;
+    position: fixed;
+    top:0;
+}
+
+nav span {
+    font-family: 'Bungee', cursive, sans-serif;
+}
+
+nav p {
+    float: right;
+}
