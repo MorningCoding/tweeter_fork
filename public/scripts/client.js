@@ -5,8 +5,6 @@
  */
 
 $(document).ready(function(){
-    console.log("document ready 2");
-
 
     //Render the tweets into the tweets-container class
     const renderTweets = function(data) {
