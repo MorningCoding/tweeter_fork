@@ -1,0 +1,67 @@
+/*This styling is for the tweet container*/
+
+.tweets-container{
+  display:flex;
+  flex-direction: column;
+  width:50%;
+  align-items:center;
+  font-family: 'Bungee', cursive, sans-serif;
+  padding:5px;
+  margin: 5px;
+}
+
+article{
+  justify-content: space-between;
+  display:inline-block;
+  width:100%;
+  background-color: lightgrey;
+  opacity:0.75;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 3px 3px 10px 3px;
+  margin-top: 20px;
+}
+
+article:hover {
+  opacity:1;
+  box-shadow: 10px 10px;
+  background-color:coral;
+}
+
+.user{
+  justify-content: space-between;
+}
+
+.avatar {
+  height:50px;
+  width:50px;
+  float:left;
+}
+
+.tweet-content{
+  border-bottom: 5px solid black;
+}
+
+footer{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  width: 100%;
+  padding: 5px 5px;
+}
+
+.right-icons{
+    float: right;
+}
+
+.fa-heart:hover{
+    color:brown;
+}
+
+.fa-flag:hover{
+    color:brown;
+}
+
+.fa-retweet:hover{
+    color:brown;
+}

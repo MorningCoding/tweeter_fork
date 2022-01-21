@@ -1,0 +1,39 @@
+/*This styling is for Compose New Tweet Section*/
+
+.new-tweet {
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    align-items:center;
+    background-color:coral;
+    font-family: 'Bungee', cursive, sans-serif;
+    padding:5px;
+    margin: 5px;
+}
+
+button {
+    background-color: #4056A1;
+    color: #FFFFFF;
+    font-family: 'Bungee', cursive, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+textarea {
+    flex: 100%;
+    border-bottom: solid 5px #000000;
+    color: #ac851c;  
+}
+
+.counter {
+    float:right;
+}
+
+.error {
+    color:aqua;
+    background-color: brown;
+}
