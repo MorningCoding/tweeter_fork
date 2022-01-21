@@ -23,7 +23,7 @@ $(document).ready(function(){
         return div.innerHTML;
     };
     
-    //Time Ago Test
+    //Time Ago
     const timeAgo = function(timeNumbers){
         return timeago.format(timeNumbers);
     };
@@ -34,15 +34,15 @@ $(document).ready(function(){
         <article class="tweet">
             <header>
                 <div class="user">
-                    <img src="${escape(data.user.avatars)}"
-                    <p>${escape(data.user.name)}</p>
+                    <img class="name1" src="${escape(data.user.avatars)}"
+                    <p class="name2">${escape(data.user.name)}</p>
                 </div>
                 <h4>${escape(data.user.handle)}</h4>
             </header>
-            <p>${escape(data.content.text)}</p>
+            <p class="tweet-content">${escape(data.content.text)}</p>
             <footer>
                 <span>${escape(timeAgo(data.created_at))}</span>
-                <div>
+                <div class="right-icons">
                     <i class="fas fa-flag"></i>
                     <i class="fas fa-retweet"></i>
                     <i class="fas fa-heart"></i>
@@ -53,6 +53,7 @@ $(document).ready(function(){
         return $tweet;
     };
 
+    //On tweet submit function
     $('.tweetform').submit(function(event){
         //prevent the default submission        
         event.preventDefault();
