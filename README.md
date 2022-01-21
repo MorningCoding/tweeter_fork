@@ -1,7 +1,23 @@
 # Tweeter Project
+Welcome!!
 
 Tweeter is a simple, single-page Twitter clone.
 
+Screenshots:
+!["Half-Page View of Tweeter"](https://github.com/MorningCoding/tweeter_fork/blob/master/docs/halfpage-tweet-box.png?raw=true)
+!["Desktop View of Tweeter"](https://github.com/MorningCoding/tweeter_fork/blob/master/docs/tweet-box.png?raw=true)
+
+
+
+
+
+
+
+
+
+
+
+---
 This repository is the starter code for the project: Students will fork and clone this repository, then build upon it to practice their HTML, CSS, JS, jQuery and AJAX front-end skills, and their Node, Express back-end skills.
 
 ## Getting Started
